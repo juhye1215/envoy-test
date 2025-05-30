@@ -1,0 +1,28 @@
+:root {
+
+  /**colors*/
+  --color-primary-bg: #F8F8F8;
+  --color-primary-text: #000000;
+  --color-primary-border: #000000;
+
+  --color-secondary-bg: #595959;
+  --color-secondary-text: #F8F8F8;
+  --color-secondary-border: #2B2B2B;
+
+  /*sizes*/
+  --border-size-medium: 1px;
+  --border-size-large: 2px;
+
+  --padding-medium: 12px 16px;
+  --padding-large: 16px 24px;
+
+  --font-size-medium: 14px;
+  --font-size-large: 16px;
+
+  --border-radius-medium: 1px;
+  --border-radius-large: 2px;
+
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+}
