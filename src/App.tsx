@@ -6,11 +6,11 @@ import Modal from './components/modal/Modal';
 import ButtonToggle from './components/buttonToggle/ButtonToggle';
 
 function App() {
-  const [openModal, setOpenModal] = useState(false); //modal opening state
+  const [openModal, setOpenModal] = useState(false); 
 
   return (
     <div className="App">
-      <h2>Hello, Nice to meet you! Envoy engineer team 👋</h2>
+      <h2>Hello, Nice to meet you! Envoy engineer team 👋 </h2>
       <ButtonToggle />
       
       <div className='modal-container'>
@@ -25,13 +25,13 @@ function App() {
 
       {openModal && (
         <div className='modal-contents'>
-          <Modal />
+          <Modal content="Modal here" />
           <Button
             variant="secondary"
             size="md"
             onClick={() => setOpenModal(false)}
           >
-            Close
+           X
           </Button>
         </div>
       )}
